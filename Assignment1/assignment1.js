@@ -56,19 +56,19 @@ document.write(`
                 </ol>
         </div>
         <div class="showList">
-        <h2>Top 10 Shows in the U.S. Today</h2>
-            <ol>
-                <li>${topShow1}</li>
-                <li>${topShow2}</li>
-                <li>${topShow3}</li>
-                <li>${topShow4}</li>
-                <li>${topShow5}</li>
-                <li>${topShow6}</li>
-                <li>${topShow7}</li>
-                <li>${topShow8}</li>
-                <li>${topShow9}</li>
-                <li>${topShow10}</li>
-            </ol>
+            <h2>Top 10 Shows in the U.S. Today</h2>
+                <ol>
+                    <li>${topShow1}</li>
+                    <li>${topShow2}</li>
+                    <li>${topShow3}</li>
+                    <li>${topShow4}</li>
+                    <li>${topShow5}</li>
+                    <li>${topShow6}</li>
+                    <li>${topShow7}</li>
+                    <li>${topShow8}</li>
+                    <li>${topShow9}</li>
+                    <li>${topShow10}</li>
+                </ol>
         </div>
     </div>
 `)
