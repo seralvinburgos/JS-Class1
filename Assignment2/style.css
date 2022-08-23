@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+h1 {
+    text-transform: uppercase;
+}
+h2 {
+    color: white;
+}
+
+#studentInfo{
+    background-color: lightslategrey;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+#grades{
+    background-color: lightslategrey;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+.red{
+    color: darkred;
+}
+.green{
+    color: green
+}
