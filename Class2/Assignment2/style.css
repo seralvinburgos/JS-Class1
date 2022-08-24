@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:wght@100;400;700&family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: rgb(101, 110, 110);
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    background-color: white;
+    padding: 2rem;
+    height: 80vh;
+    width: min(80%, 60rem);
+    margin-inline: auto;
+    margin-top: 5rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+}    
+.containerTop {
+    
+}
+.companyName {
+    float: left;
+}
+.companyName h2 {
+    margin-bottom: 1rem;
+}
+.receipt {
+    display: flex;
+    justify-content: right;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+/* box - containferInfo */
+.containerInfo p {
+    text-align: left;
+    margin-left: 5px;
+}
+.containerInfo {
+    background-color: antiquewhite;
+    display: grid;
+    width: min(90%, 80rem);
+    gap: 1rem;
+    padding: 0.5rem;
+    margin-top: 7rem;
+    margin-inline: auto;
+    border-radius: 10px;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr); 
+}
+.receiptNumber p {
+    text-align: right;
+}
+.receiptValues p {
+    text-align: right;
+    margin-right: 10px;
+}
+/* end of box */
+
+/* box - containerMid */
+.containerMid {
+    background-color: antiquewhite;
+    display: grid;
+    width: min(90%, 80rem);
+    gap: 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-inline: auto;
+    border-radius: 10px;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 1fr);
+}
+.containerMid h3 {
+    text-transform: uppercase;
+}
+
+/* end of box */
+
+/* box - containerTotal */
+.containerTotal {
+    background-color: antiquewhite;
+    display: grid;
+    position: relative;
+    width: min(90%, 10rem);
+    gap: 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 55%;
+    border-radius: 10px;
+    text-align: right;
+    grid-template-columns: 1fr; 
+}
+/* end of box */
+
+/* box - totalFinal */
+.totalFinal {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: right; 
+    width: min(90%, 10rem);
+    gap: 1rem;
+    padding: 0.5rem;
+    margin-top: -11.3%;
+    margin-left: 77.5%;
+    border-radius: 10px;
+    text-align: right;
+    grid-template-rows: repeat(3,1fr); 
+}
+
+/* end of box */
+.terms {
+    margin-top: 35%;
+}
+.terms p {
+    font-size: small;
+}
+
