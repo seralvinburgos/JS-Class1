@@ -1,32 +1,45 @@
 let studentName = prompt("Enter student name: ")
 let studentEmail = prompt("Enter student email: ")
-let subject1 = prompt("Enter subject 1 name: ");
-let grade1 = Number(prompt("Enter grade 1: "));
+let purchase1 = prompt("Enter purchase description: ")
+let price1 = Number(prompt("Enter product price: "))
+let quantity1 = Number(prompt("Enter quantity: "))
+let purchase2 = prompt("Enter product(2) description: ")
+let price2 = Number(prompt("Enter product(2) price: "))
+let quantity2 = Number(prompt("Enter quantity: "))
+let purchase3 = prompt("Enter product(3) description: ")
+let price3 = Number(prompt("Enter product(3) price: "))
+let quantity3 = Number(prompt("Enter quantity: "))
 
-let subject2 = prompt("Enter subject 2 name: ");
-let grade2 = Number(prompt("Enter grade 2: "));
-let gpa=(grade1+grade2)/2;
+let subtotal1 = (price1*quantity1);
+let subtotal2 = (price2*quantity2);
+let subtotal3 = (price3*quantity3);
+let subtotalFinal = (subtotal1+subtotal2+subtotal3);
+let finalTotal = (subtotalFinal * .06;
 
-
-document.getElementById("studentInfo").innerHTML=`
-    <h2>Student Information</h2>
-    <p> Name: ${studentName}</p>
-    <p> Email: ${studentEmail}</p>
+document.getElementById("customerInfo").innerHTML =`
+    <h2>Customer Information</h2>
+    <p> Name: ${studentName} </p>
+    <p> Email: ${studentEmail} </p>
     `;
-document.getElementById("grades").innerHTML=`    
-    <h2>Grades</h2>
-    <p> Subject 1: ${subject1}</p>
-    <p> Grade: ${grade1}</p>
-    <p> Subject 2: ${subject2}</p>
-    <p> Grade: ${grade2}</p>
+
+document.getElementById("productInfo").innerHTML =`
+    <h2>Product Information</h2>
+    <p> Product: ${purchase1} </p>
+    <p> Price: ${price1}</p>
+    <p> Quantity: ${quantity1}</p>
     <hr>
-    <p id="gpa" class="red"><b>GPA: ${gpa}<b></p>
+    <p> Product: ${purchase2}</p>
+    <p> Price: ${price2}</p>
+    <p> Quantity: ${quantity2}</p>
+    <hr>
+    <p> Product: ${purchase3}</p>
+    <p> Price: ${price3}</p>
+    <p> Quantity: ${quantity3}</p>
+    <hr>
 `;
 
-if(gpa<2){
-    document.getElementById("gpa").classList.add("red");
-
-}else{
-    document.getElementById("gpa").classList.remove("red");
-    document.getElementById("gpa").classList.add("green");
-}
+document.getElementById("totalValues").innerHTML =`
+    <p> Subtotal: ${subtotalFinal} </p>
+    <p> Sales Tax 6% </p>
+    <h3> TOTAL: ${finalTotal}</p>
+`;
