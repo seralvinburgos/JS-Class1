@@ -14,16 +14,17 @@ let subtotal1 = (price1*quantity1);
 let subtotal2 = (price2*quantity2);
 let subtotal3 = (price3*quantity3);
 let subtotalFinal = (subtotal1+subtotal2+subtotal3);
-let finalTotal = (subtotalFinal * .06;
+let salesTax = (subtotalFinal) * .06;
+let finalTotal = (subtotalFinal+salesTax);
 
 document.getElementById("customerInfo").innerHTML =`
-    <h2>Customer Information</h2>
+    <h3>Customer Information</h3>
     <p> Name: ${studentName} </p>
     <p> Email: ${studentEmail} </p>
     `;
 
 document.getElementById("productInfo").innerHTML =`
-    <h2>Product Information</h2>
+    <h3>Product Information</h3>
     <p> Product: ${purchase1} </p>
     <p> Price: ${price1}</p>
     <p> Quantity: ${quantity1}</p>
@@ -40,6 +41,14 @@ document.getElementById("productInfo").innerHTML =`
 
 document.getElementById("totalValues").innerHTML =`
     <p> Subtotal: ${subtotalFinal} </p>
-    <p> Sales Tax 6% </p>
-    <h3> TOTAL: ${finalTotal}</p>
+    <p> Sales Tax 6%: ${salesTax} </p>
+    <h4> TOTAL: ${finalTotal}</h4>
 `;
+
+console.log(purchase1, purchase2, purchase3);
+console.log(price1, price2, price3);
+console.log(quantity1, quantity2, quantity3);
+console.log(subtotal1, subtotal2, subtotal3);
+console.log(subtotalFinal);
+console.log(salesTax);
+console.log(finalTotal);

@@ -3,9 +3,21 @@ body{
     background-color: white;
 }
 h1 {
-    text-transform: uppercase;
+    
 }
-h2 {
+#header {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+#receipt {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: black;
+}
+h3 {
+    text-align: center;
     color: white;
 }
 
@@ -13,7 +25,8 @@ h2 {
     background-color: lightslategrey;
     width: 500px;
     padding: 10px;
-    margin-bottom: 2rem;
+    margin-inline: auto;
+    margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
@@ -21,6 +34,8 @@ h2 {
     background-color: lightslategrey;
     width: 500px;
     padding: 10px;
+    margin-inline: auto;
+    margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
@@ -28,12 +43,7 @@ h2 {
     background-color: lightslategrey;
     width: 500px;
     padding: 10px;
+    margin-inline: auto;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-}
-.red{
-    color: darkred;
-}
-.green{
-    color: green
 }
