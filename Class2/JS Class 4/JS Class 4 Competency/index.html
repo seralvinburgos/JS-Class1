@@ -9,18 +9,32 @@
     <title>My ToDo App</title>
 </head>
 <body>
-    <header>My ToDo App</header>
+    <div class="container">
+        <header>To-Do Checklist</header>
+            <div class="containerListOne">
+                <h3>priority</h3>
+                <div>
+                    <input type="text" placeholder="Enter priority task" id="task">
+                    <button onclick="addTask()">Add</button>
+                </div>             
+                <main>
+                    <ul id="task-list">
+                    </ul>
+                </main>
+            </div>
 
-    <div>
-        <input type="text" placeholder="Enter your task" id="task">
-        <button onclick="addTask()">Add</button>
-    </div>
-    
-    <main>
-        <ul id="task-list">
-
-        </ul>
-
-    </main>
+            <div class="containerListTwo">
+                <div>
+                    <h3>general</h3>
+                    <input type="text" placeholder="Enter general task" id="task2">
+                    <button onclick="addTask2()">Add</button>
+                </div>
+                
+                <main>
+                    <ul id="task-list2">
+                    </ul>
+                </main>
+            </div>
+        </div>
 </body>
 </html>

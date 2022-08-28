@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:wght@100;400;700&family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background-image: url(paperfolds.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+header {
+    background-color: hsl(207, 85%, 90%);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-left: 14%;
+    width: 70%;
+    height: 4vh;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.containerListOne h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: crimson;
+}
+.containerListOne {
+    background-color: white;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+    margin-top: 1rem;
+    margin-left: 14%;
+    width: 70%;
+    height: 25vh;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+.containerListTwo h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: black
+}
+.containerListTwo {
+    background-color: hsl(25, 80%, 90%);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+    margin-top: 1rem;
+    margin-left: 14%;
+    width: 70%;
+    height: 50vh;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+#task {
+    margin-top: 2rem;
+    margin-left: 14%;
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+}
+#task2 {
+    margin-top: 2rem;
+    margin-left: 14%;
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+}
+button {
+    padding: 5px;
+    width: 10%;
+    border-radius: 5px;
+}
+button:hover {
+    color: goldenrod;
+}
+#deleteButton {
+    margin-left: 2rem;
+    padding: 0;
+    height: 20px;
+    width: 25px;
+    border-radius: 9px;
+}
+#deleteButton:hover {
+    background-color: crimson;
+    color: white;
+}
+#task-list li {
+    list-style: none;
+    margin: 1rem auto;
+    margin-left: 15%;
+}
+#task-list li {
+    list-style: none;
+    margin: 1rem auto;
+    margin-left: 15%;
+}
+#task-list2 li {
+    list-style: none;
+    margin: 1rem auto;
+    margin-left: 15%;
+}
